@@ -4,9 +4,20 @@
       "BasicDigitalLogicCircuit": {
         "src": "src/seeds/BasicDigitalLogicCircuit"
       }
+    },
+    "plugins": {
+      "DigitalLogic": {
+        "src": "src/plugins/DigitalLogic",
+        "test": "test/plugins/DigitalLogic"
+      },
+      "MiniProject2": {
+        "src": "src/plugins/MiniProject2",
+        "test": "test/plugins/MiniProject2"
+      }
     }
   },
   "dependencies": {
-    "seeds": {}
+    "seeds": {},
+    "plugins": {}
   }
 }
