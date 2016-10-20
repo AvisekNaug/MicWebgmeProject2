@@ -1,0 +1,74 @@
+[
+    {
+        "name": "FCO",
+        "path": "/1",
+        "nbrOfChildren": 0,
+        "base": null
+    },
+    {
+        "name": "Adder1",
+        "path": "/9",
+        "nbrOfChildren": 22,
+        "base": "FCO"
+    },
+    {
+        "name": "And2",
+        "path": "/9/g",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    },
+    {
+        "name": "And1",
+        "path": "/9/w",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    },
+    {
+        "name": "Cin",
+        "path": "/9/V",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Xor2",
+        "path": "/9/P",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    },
+    {
+        "name": "Xor1",
+        "path": "/9/v",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    },
+    {
+        "name": "Output",
+        "path": "/9/D",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Or",
+        "path": "/9/k",
+        "nbrOfChildren": 3,
+        "base": "FCO"
+    },
+    {
+        "name": "Input2",
+        "path": "/9/d",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "Input1",
+        "path": "/9/N",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    },
+    {
+        "name": "A1XORB1",
+        "path": "/G",
+        "nbrOfChildren": 0,
+        "base": "FCO"
+    }
+]

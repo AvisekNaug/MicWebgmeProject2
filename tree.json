@@ -1,0 +1,1283 @@
+{
+    "name": "ROOT",
+    "children": {
+        "1": {
+            "name": "FCO",
+            "isMeta": true,
+            "metaType": "FCO",
+            "children": {}
+        },
+        "2": {
+            "name": "B1",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        },
+        "9": {
+            "name": "Adder1",
+            "isMeta": true,
+            "metaType": "Adder1",
+            "base": "FCO",
+            "children": {
+                "3": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "And2",
+                    "src": "Input1",
+                    "base": "And2",
+                    "dst": "And2",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "5": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "And2",
+                    "base": "And2",
+                    "dst": "And1",
+                    "src": "Cin",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "g": {
+                    "name": "And2",
+                    "isMeta": true,
+                    "metaType": "And2",
+                    "base": "FCO",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "w": {
+                    "name": "And1",
+                    "isMeta": true,
+                    "metaType": "And1",
+                    "base": "FCO",
+                    "children": {
+                        "J": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "n": {
+                    "name": "And1",
+                    "isMeta": false,
+                    "metaType": "And1",
+                    "dst": "And1",
+                    "src": "Output",
+                    "base": "And1",
+                    "children": {
+                        "J": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "V": {
+                    "name": "Cin",
+                    "isMeta": true,
+                    "metaType": "Cin",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "M": {
+                    "name": "Xor2",
+                    "isMeta": false,
+                    "metaType": "Xor2",
+                    "dst": "Input2",
+                    "base": "Xor2",
+                    "src": "Cin",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "P": {
+                    "name": "Xor2",
+                    "isMeta": true,
+                    "metaType": "Xor2",
+                    "base": "FCO",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "G": {
+                    "name": "Xor2",
+                    "isMeta": false,
+                    "metaType": "Xor2",
+                    "base": "Xor2",
+                    "dst": "Input1",
+                    "src": "Output",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "e": {
+                    "name": "Xor1",
+                    "isMeta": false,
+                    "metaType": "Xor1",
+                    "base": "Xor1",
+                    "dst": "Input1",
+                    "src": "Input1",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "9L": {
+                    "name": "Xor1",
+                    "isMeta": false,
+                    "metaType": "Xor1",
+                    "base": "Xor1",
+                    "dst": "Input2",
+                    "src": "Input2",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "v": {
+                    "name": "Xor1",
+                    "isMeta": true,
+                    "metaType": "Xor1",
+                    "base": "FCO",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "H": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "src": "Output",
+                    "base": "Output",
+                    "dst": "Output",
+                    "children": {}
+                },
+                "D": {
+                    "name": "Output",
+                    "isMeta": true,
+                    "metaType": "Output",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "S": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "src": "Output",
+                    "dst": "CarryOutput",
+                    "children": {}
+                },
+                "j": {
+                    "name": "Or",
+                    "isMeta": false,
+                    "metaType": "Or",
+                    "base": "Or",
+                    "dst": "Input1",
+                    "src": "And1",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "k": {
+                    "name": "Or",
+                    "isMeta": true,
+                    "metaType": "Or",
+                    "base": "FCO",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "uL": {
+                    "name": "Or",
+                    "isMeta": false,
+                    "metaType": "Or",
+                    "dst": "Input2",
+                    "base": "Or",
+                    "src": "And2",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "d": {
+                    "name": "Input2",
+                    "isMeta": true,
+                    "metaType": "Input2",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "N": {
+                    "name": "Input1",
+                    "isMeta": true,
+                    "metaType": "Input1",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "t": {
+                    "name": "CarryOutput",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "f": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "And2",
+                    "src": "Input1",
+                    "base": "And2",
+                    "dst": "And2",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "Output",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "Input1",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "Input2",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                }
+            }
+        },
+        "33": {
+            "name": "Output",
+            "isMeta": false,
+            "metaType": "Output",
+            "base": "Output",
+            "src": "Output",
+            "dst": "A2XORB2",
+            "children": {}
+        },
+        "Q": {
+            "name": "Xor1",
+            "isMeta": false,
+            "metaType": "Xor1",
+            "base": "Xor1",
+            "src": "A1",
+            "dst": "Input1",
+            "children": {
+                "V": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "Input2",
+                    "base": "Input2",
+                    "children": {}
+                },
+                "h": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "children": {}
+                },
+                "g": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "Input1",
+                    "base": "Input1",
+                    "children": {}
+                }
+            }
+        },
+        "QU": {
+            "name": "Xor1",
+            "isMeta": false,
+            "metaType": "Xor1",
+            "base": "Xor1",
+            "src": "B1",
+            "dst": "Input2",
+            "children": {
+                "V": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "Input2",
+                    "base": "Input2",
+                    "children": {}
+                },
+                "h": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "children": {}
+                },
+                "g": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "Input1",
+                    "base": "Input1",
+                    "children": {}
+                }
+            }
+        },
+        "U": {
+            "name": "Output",
+            "isMeta": false,
+            "metaType": "Output",
+            "base": "Output",
+            "src": "Output",
+            "dst": "A1XORB1",
+            "children": {}
+        },
+        "H": {
+            "name": "Xor2",
+            "isMeta": false,
+            "metaType": "Xor2",
+            "base": "Xor2",
+            "src": "CarryOutput",
+            "dst": "Cin",
+            "children": {
+                "g": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "Input1",
+                    "base": "Input1",
+                    "children": {}
+                },
+                "V": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "Input2",
+                    "base": "Input2",
+                    "children": {}
+                },
+                "h": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "children": {}
+                }
+            }
+        },
+        "I": {
+            "name": "Xor1",
+            "isMeta": false,
+            "metaType": "Xor1",
+            "base": "Xor1",
+            "src": "A2",
+            "dst": "Input1",
+            "children": {
+                "V": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "Input2",
+                    "base": "Input2",
+                    "children": {}
+                },
+                "h": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "children": {}
+                },
+                "g": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "Input1",
+                    "base": "Input1",
+                    "children": {}
+                }
+            }
+        },
+        "W": {
+            "name": "Xor1",
+            "isMeta": false,
+            "metaType": "Xor1",
+            "base": "Xor1",
+            "src": "B2",
+            "dst": "Input2",
+            "children": {
+                "V": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "Input2",
+                    "base": "Input2",
+                    "children": {}
+                },
+                "h": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "Output",
+                    "base": "Output",
+                    "children": {}
+                },
+                "g": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "Input1",
+                    "base": "Input1",
+                    "children": {}
+                }
+            }
+        },
+        "A": {
+            "name": "Output",
+            "isMeta": false,
+            "metaType": "Output",
+            "base": "Output",
+            "src": "CarryOutput",
+            "dst": "CarryOutput",
+            "children": {}
+        },
+        "p": {
+            "name": "A1",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        },
+        "R": {
+            "name": "A2",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        },
+        "t": {
+            "name": "B2",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        },
+        "V": {
+            "name": "Adder2",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {
+                "3": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "src": "Input1",
+                    "base": "And2",
+                    "dst": "And2",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "5": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "And2",
+                    "dst": "And1",
+                    "src": "Cin",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "f": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "src": "Input1",
+                    "base": "And2",
+                    "dst": "And2",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "g": {
+                    "name": "And2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {
+                        "X": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "w": {
+                    "name": "And1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {
+                        "J": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "n": {
+                    "name": "And1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "dst": "And1",
+                    "src": "Output",
+                    "base": "And1",
+                    "children": {
+                        "J": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "L": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        }
+                    }
+                },
+                "M": {
+                    "name": "Xor2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "dst": "Input2",
+                    "base": "Xor2",
+                    "src": "Cin",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "P": {
+                    "name": "Xor2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "V": {
+                    "name": "Cin",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "G": {
+                    "name": "Xor2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "Xor2",
+                    "dst": "Input1",
+                    "src": "Output",
+                    "children": {
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        },
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        }
+                    }
+                },
+                "e": {
+                    "name": "Xor1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "Xor1",
+                    "dst": "Input1",
+                    "src": "Input1",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "9L": {
+                    "name": "Xor1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "Xor1",
+                    "dst": "Input2",
+                    "src": "Input2",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "v": {
+                    "name": "Xor1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {
+                        "V": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "g": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "H": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "src": "Output",
+                    "base": "Output",
+                    "dst": "Output",
+                    "children": {}
+                },
+                "D": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "S": {
+                    "name": "Output",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "Output",
+                    "src": "Output",
+                    "dst": "CarryOutput",
+                    "children": {}
+                },
+                "j": {
+                    "name": "Or",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "Or",
+                    "dst": "Input1",
+                    "src": "And1",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "k": {
+                    "name": "Or",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "uL": {
+                    "name": "Or",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "dst": "Input2",
+                    "base": "Or",
+                    "src": "And2",
+                    "children": {
+                        "y": {
+                            "name": "Input2",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input2",
+                            "children": {}
+                        },
+                        "h": {
+                            "name": "Output",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Output",
+                            "children": {}
+                        },
+                        "X": {
+                            "name": "Input1",
+                            "isMeta": false,
+                            "metaType": "FCO",
+                            "base": "Input1",
+                            "children": {}
+                        }
+                    }
+                },
+                "d": {
+                    "name": "Input2",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "N": {
+                    "name": "Input1",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                },
+                "t": {
+                    "name": "CarryOutput",
+                    "isMeta": false,
+                    "metaType": "FCO",
+                    "base": "FCO",
+                    "children": {}
+                }
+            }
+        },
+        "E": {
+            "name": "Output",
+            "isMeta": false,
+            "metaType": "Output",
+            "src": "Output",
+            "dst": "CarryOutput",
+            "base": "Output",
+            "children": {}
+        },
+        "G": {
+            "name": "A1XORB1",
+            "isMeta": true,
+            "metaType": "A1XORB1",
+            "base": "FCO",
+            "children": {}
+        },
+        "D": {
+            "name": "A2XORB2",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        },
+        "q": {
+            "name": "CarryOutput",
+            "isMeta": false,
+            "metaType": "FCO",
+            "base": "FCO",
+            "children": {}
+        }
+    }
+}
